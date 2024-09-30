@@ -85,7 +85,7 @@ jobs:
       # Cache primer packages
       - name: Download last 'main' run info
         id: download-main-run
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             // Download 'main' pylint output
