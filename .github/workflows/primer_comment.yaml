@@ -29,7 +29,7 @@ jobs:
           node-version: 16
       - run: npm install @octokit/rest
       - name: Check out code from GitHub
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v4.2.1
       - name: Set up Python 3.10
         id: python
         uses: actions/setup-python@v4.1.0
